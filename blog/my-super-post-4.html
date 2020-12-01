@@ -1,85 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+          <title>Rafael "Toguko" Dias</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <title>Post 4 - testing</title>
-        <link rel="stylesheet" href="https://toguko.com/blog/theme/css/main.css" />
-        <link href="https://toguko.com/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Rafael "Toguko" Dias Atom Feed" />
-        <meta name="description" content="This is the content of my super blog post 4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..." />
+        <!-- twitter card metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://toguko.com/blog/images/flat+version+sunflower-1319964670825231402_512.png">
+<meta name="twitter:site" content="@toguko">
+<meta name="twitter:title" content="Post 4 - testing">
+<meta name="twitter:description" content="Short version for index and feeds">
+        <!-- OG Tags -->
+<meta property="og:url" content="https://toguko.com/blog/my-super-post-4.html"/>
+<meta property="og:title" content="Rafael "Toguko" Dias | Post 4 - testing" />
+<meta property="og:description" content="Short version for index and feeds" />
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="https://toguko.com/blog/images/flat+version+sunflower-1319964670825231402_512.png">
+        <!-- moment.js for date formatting -->
+        <script src="https://toguko.com/blog/theme/js/moment.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="https://toguko.com/blog/theme/css/main.css" />
+		<script>
+			
+                /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+    
+    (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+                
+                grunticon(["https://toguko.com/blog/theme/css/icons.data.svg.css", "https://toguko.com/blog/theme/css/icons.data.png.css", "https://toguko.com/blog/theme/css/icons.fallback.css"]);
+            </script>
+        <noscript><link href="https://toguko.com/blog/theme/css/icons.fallback.css" rel="stylesheet"></noscript>
+        <!-- menu toggle javascript -->
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", initMenu);
+            
+            function initMenu(){
+                var menu = document.getElementById("menu");
+                var menulink = document.getElementById("menu-link");
+                menulink.addEventListener("click", function toggleMenu(){
+                        window.event.preventDefault();
+                        menulink.classList.toggle('active');
+                        menu.classList.toggle('active');              
+                    });
+            };
+        </script>
+
+    <meta name="description" content="Short version for index and feeds" />
+
+    <meta name="tags" content="python" />
+    <meta name="tags" content="testing" />
+
 </head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://toguko.com/blog/">Rafael "Toguko" Dias</a></h1>
-                <nav><ul>
-                    <li><a href="/tags">tags</a></li>
-                    <li class="active"><a href="https://toguko.com/blog/category/python.html">Python</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="https://toguko.com/blog/my-super-post-4.html" rel="bookmark"
-           title="Permalink to Post 4 - testing">Post 4 - testing</a></h1>
-<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="@toguko">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-    </header>
-
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2020-11-28T00:00:00-05:00">
-                Published: Sat 28 November 2020
-        </abbr>
-		<br />
-        <abbr class="modified" title="2020-11-28T00:00:00-05:00">
-                Updated: Sat 28 November 2020
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://toguko.com/blog/author/toguko.html">toguko</a>
-        </address>
-<p>In <a href="https://toguko.com/blog/category/python.html">Python</a>.</p>
-<p>tags: <a href="https://toguko.com/blog/tag/python.html">python</a> <a href="https://toguko.com/blog/tag/testing.html">testing</a> </p>
-</footer><!-- /.post-info -->      <p>This is the content of my super blog post 4.</p>
+<body>
+    <div role="banner" id="masthead">
+        <header>
+            <a href="/"><img src="https://toguko.com/blog/images/flat+version+sunflower-1319964670825231402_512.png" alt="McManus Logo"></a>
+            <a href="#menu" id="menu-link">more stuff</a>
+            <nav id="menu">
+                <ul>
+                        <li><a href="/tags">tags</a></li>
+                            <li class="active"><a href="https://toguko.com/blog/category/python.html">Python</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+        <div class="page" role="main">
+  <div class="article" role="article">
+    <article>
+        <footer>
+            <a name="top"></a>
+            <p>
+              <time datetime=" 2020-11-28 00:00:00-05:00">
+                <script>document.write(moment('2020-11-28 00:00:00-05:00').format('LL'));</script>
+              </time>
+            </p>
+        </footer>
+        <header>
+          <h2>
+            Post 4 - testing
+          </h2>
+        </header>
+      <div class="content">
+         <p>This is the content of my super blog post 4.</p>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. Remaining essentially unchanged. It was popularised in the 1960s simply dummy text printing standard dummy text.</p>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 <p><img alt="Alt Text" src="https://toguko.com/blog/images/goku_1.png"></p>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. Remaining essentially unchanged. It was popularised in the 1960s simply dummy text printing standard dummy text.</p>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 <p><img alt="Alt Text" src="https://toguko.com/blog/images/goku_3.jpg"></p>
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="https://getpelican.com/">Pelican</a></li>
-                            <li><a href="https://www.python.org/">Python.org</a></li>
-                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://toguko.com/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+      </div>
+      <div class="back-to-top">
+          <a href="#top">back to top</a>
+      </div>
+    </article>
+  </div>
+<!-- end article -->
+                <footer>
+                    <div class="icons">
+                        <a href="https://twitter.com/toguko" target="_blank"><div class="icon-twitter icon"></div></a>
+                        <a href="https://github.com/toguko" target="_blank"><div class="icon-github icon"></div></a>
+                    </div>
+                    <p>© <script>document.write(moment().format('YYYY'));</script> Toguko</p>
+                </footer>
+        </div>
 </body>
 </html>
