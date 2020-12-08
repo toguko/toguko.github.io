@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@import url("https://fonts.googleapis.com/css?family=Radley");
+* {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  color: #17181a;
+}
+#container_1 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+#container_1 a {
+  text-decoration: none;
+  color: #17181a;
+}
+#container_1 a:hover {
+  cursor: pointer;
+  color: #f00;
+}
+#container_1 #links {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 32px;
+}
+#container_1 #links .dot {
+  padding: 0 32px;
+  font-size: 8px;
+  color: #17181a;
+}
+#container_1 #me {
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  top: 50%;
+  margin-top: -80px;
+  position: absolute;
+}
+#container_1 #me .name {
+  font-family: 'Radley', sans-serif;
+  font-size: 96px;
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  line-height: 96px;
+}
+#container_1 #me .profession {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 32px;
+}
+#container_1 #down {
+  width: 24px;
+  height: 24px;
+  background: #17181a;
+  bottom: 32px;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  z-index: 1;
+}
+#container_2 {
+  width: 100vw;
+  background: #17181a;
+  margin-top: 100vh;
+  z-index: 9999;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-bottom: 192px;
+}
+#container_2 #header {
+  padding-top: 96px;
+  color: #fff;
+  width: 750px;
+  font-family: 'Radley', sans-serif;
+  font-size: 96px;
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  line-height: 120%;
+  text-align: left;
+  z-index: 1000;
+}
+#container_2 #facts {
+  width: 750px;
+  z-index: 1000;
+}
+#container_2 #facts .fact {
+  color: #fff;
+  margin-top: 48px;
+}
+#container_2 #facts .fact .title {
+  font-family: 'Radley', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  margin-left: -30px;
+}
+#container_2 #facts .fact .desc {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  line-height: 32px;
+  margin-top: 8px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.7);
+}
+#container_2 #facts .fact .desc a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#container_2 #facts .fact .desc a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 640px) {
+  #container_1 #links {
+    font-size: 14px;
+    margin-top: 24px;
+    letter-spacing: 4px;
+  }
+  #container_1 #links .dot {
+    padding: 0 8px;
+    font-size: 4px;
+  }
+  #container_1 #me {
+    height: 88px;
+    margin-top: -44px;
+  }
+  #container_1 #me .name {
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 8px;
+  }
+  #container_1 #me .profession {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    margin-top: 8px;
+  }
+  #container_2 {
+    width: 92%;
+    padding: 0 4%;
+  }
+  #container_2 #header {
+    width: 100%;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 8px;
+    padding-top: 48px;
+  }
+  #container_2 #facts {
+    width: 100%;
+  }
+  #container_2 #facts .fact .title {
+    margin-left: 0px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #container_2 #facts .fact .desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
