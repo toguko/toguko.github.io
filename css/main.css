@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
-@import url("https://fonts.googleapis.com/css?family=Radley");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300");
 
 html,body {
     padding:0;
@@ -48,7 +48,7 @@ html,body {
   position: absolute;
 }
 #container_1 #me .name {
-  font-family: 'Radley', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 96px;
   text-transform: uppercase;
   letter-spacing: 16px;
@@ -91,7 +91,7 @@ html,body {
   padding-top: 96px;
   color: #fff;
   width: 750px;
-  font-family: 'Radley', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 64px;
   text-transform: uppercase;
   letter-spacing: 16px;
@@ -103,7 +103,7 @@ html,body {
   padding-top: 96px;
   color: #fff;
   width: 750px;
-  font-family: 'Radley', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 16px;
@@ -121,7 +121,7 @@ html,body {
   margin-top: 48px;
 }
 #container_2 #facts .fact .title {
-  font-family: 'Radley', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 32px;
   line-height: 48px;
   margin-left: -30px;
