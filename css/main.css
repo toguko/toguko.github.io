@@ -110,6 +110,7 @@ html,body {
   line-height: 120%;
   text-align: left;
   z-index: 1000;
+  text-decoration: overline;
 }
 #container_2 #facts {
   width: 750px;
