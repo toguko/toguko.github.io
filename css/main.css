@@ -76,7 +76,7 @@ html,body {
 #container_2 {
   width: 100vw;
   background: #2E3440;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   z-index: 9999;
   display: -webkit-box;
   display: flex;
@@ -85,7 +85,7 @@ html,body {
           flex-direction: column;
   -webkit-box-align: center;
           align-items: center;
-  padding-bottom: 192px;
+  /* padding-bottom: 192px; */
 }
 #container_2 #header {
   padding-top: 96px;
