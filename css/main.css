@@ -92,7 +92,19 @@ html,body {
   color: #fff;
   width: 750px;
   font-family: 'Radley', sans-serif;
-  font-size: 96px;
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  line-height: 120%;
+  text-align: left;
+  z-index: 1000;
+}
+#container_2 #header_2 {
+  padding-top: 96px;
+  color: #fff;
+  width: 750px;
+  font-family: 'Radley', sans-serif;
+  font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 16px;
   line-height: 120%;
