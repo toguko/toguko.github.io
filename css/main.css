@@ -135,7 +135,7 @@ html,body {
 }
 #container_2 #facts .fact .desc a {
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
 }
 #container_2 #facts .fact .desc a:hover {
