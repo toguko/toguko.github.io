@@ -85,7 +85,7 @@ html,body {
           flex-direction: column;
   -webkit-box-align: center;
           align-items: center;
-  /* padding-bottom: 192px; */
+  padding-bottom: 92px;
 }
 #container_2 #header {
   padding-top: 96px;
