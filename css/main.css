@@ -4,7 +4,7 @@
 html,body {
     padding:0;
     margin:0;
-    color: #17181a;
+    background-color: #E5E9F0;
 }
 
 #container_1 {
@@ -18,7 +18,7 @@ html,body {
 }
 #container_1 a:hover {
   cursor: pointer;
-  color: #f00;
+  color: #BF616A;
 }
 #container_1 #links {
   width: 100%;
